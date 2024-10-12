@@ -30,3 +30,11 @@ git push -u origin main
 git branch
 git branch -m master main
 git push -u origin main
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+git branch
+git branch -m master main
+git status
+git init
+git branch -a
