@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.renjin</groupId>
+  <artifactId>renjin-repackaged-parent</artifactId>
+  <name>Renjin Repackaged Dependency Parent</name>
+  <version>1.0</version>
+  <packaging>pom</packaging>
+
+  <properties>
+    <renjin.repackaged.prefix>org.renjin.repackaged</renjin.repackaged.prefix>
+  </properties>
+
+  <distributionManagement>
+    <repository>
+      <id>renjin-release</id>
+      <name>Renjin Releases</name>
+      <url>https://nexus.bedatadriven.com/content/repositories/renjin-release/</url>
+    </repository>
+    <snapshotRepository>
+      <id>renjin-latest</id>
+      <name>Renjin Latest Builds</name>
+      <url>https://nexus.bedatadriven.com/content/repositories/renjin-latest/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
+</project>

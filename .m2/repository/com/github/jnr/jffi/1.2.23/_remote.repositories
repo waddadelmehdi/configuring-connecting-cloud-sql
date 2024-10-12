@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Oct 12 09:44:30 UTC 2024
+jffi-1.2.23.jar>central=
+jffi-1.2.23-native.jar>central=
+jffi-1.2.23.pom>central=

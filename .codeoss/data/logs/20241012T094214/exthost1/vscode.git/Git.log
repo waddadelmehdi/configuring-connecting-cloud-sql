@@ -1,0 +1,76 @@
+2024-10-12 09:43:08.876 [info] Log level: Info
+2024-10-12 09:43:08.876 [info] Validating found git in: "git"
+2024-10-12 09:43:08.876 [info] Using git "2.43.0" from "git"
+2024-10-12 09:43:08.876 [info] > git rev-parse --show-toplevel [12ms]
+2024-10-12 09:43:08.876 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-12 09:43:08.972 [info] > git rev-parse --show-toplevel [96ms]
+2024-10-12 09:43:08.972 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-12 09:43:09.044 [info] > git rev-parse --show-toplevel [34ms]
+2024-10-12 09:43:09.044 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-12 09:43:09.263 [info] > git rev-parse --show-toplevel [107ms]
+2024-10-12 09:43:09.263 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-12 09:43:09.381 [info] > git rev-parse --show-toplevel [76ms]
+2024-10-12 09:43:09.394 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-12 09:43:09.469 [info] > git rev-parse --show-toplevel [32ms]
+2024-10-12 09:43:09.472 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-12 09:43:09.527 [info] > git rev-parse --show-toplevel [19ms]
+2024-10-12 09:43:09.529 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-12 09:43:09.604 [info] > git rev-parse --show-toplevel [30ms]
+2024-10-12 09:43:09.604 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-12 09:43:09.742 [info] > git rev-parse --show-toplevel [106ms]
+2024-10-12 09:43:09.743 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-12 09:43:09.847 [info] > git rev-parse --show-toplevel [12ms]
+2024-10-12 09:43:09.911 [info] > git rev-parse --git-dir --git-common-dir [27ms]
+2024-10-12 09:43:09.942 [info] Open repository: /home/student_02_0bc9ce7a92e9/training-data-analyst
+2024-10-12 09:43:10.018 [info] > git config --get commit.template [15ms]
+2024-10-12 09:43:10.093 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
+2024-10-12 09:43:10.144 [warning] ENOENT: no such file or directory, open '/home/student_02_0bc9ce7a92e9/training-data-analyst/.git/refs/remotes/origin/master'
+2024-10-12 09:43:10.159 [info] > git rev-parse refs/remotes/origin/master [14ms]
+2024-10-12 09:43:12.471 [info] > git status -z -uall [2254ms]
+2024-10-12 09:43:12.654 [info] > git check-ignore -v -z --stdin [49ms]
+2024-10-12 09:43:12.656 [info] > git merge-base refs/heads/master refs/remotes/origin/master [130ms]
+2024-10-12 09:43:12.707 [info] > git config --get commit.template [57ms]
+2024-10-12 09:43:12.714 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [13ms]
+2024-10-12 09:43:12.755 [info] > git diff --name-status -z --diff-filter=ADMR f8e281621ab5272ce9da38ba391c404fd14bd3d6...refs/remotes/origin/master [24ms]
+2024-10-12 09:43:12.774 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [19ms]
+2024-10-12 09:43:12.810 [warning] ENOENT: no such file or directory, open '/home/student_02_0bc9ce7a92e9/training-data-analyst/.git/refs/remotes/origin/master'
+2024-10-12 09:43:13.159 [info] > git rev-parse refs/remotes/origin/master [348ms]
+2024-10-12 09:43:35.067 [info] > git status -z -uall [21834ms]
+2024-10-12 09:43:35.217 [info] > git rev-parse --show-toplevel [198ms]
+2024-10-12 09:43:35.223 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-12 09:43:38.558 [info] > git rev-parse --show-toplevel [48ms]
+2024-10-12 09:43:38.559 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-12 09:44:22.904 [info] > git rev-parse --show-toplevel [21ms]
+2024-10-12 09:44:22.909 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-12 09:48:10.411 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-12 09:48:10.411 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-12 09:48:19.521 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-12 09:48:19.550 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-10-12 09:48:19.559 [info] Open repository: /home/student_02_0bc9ce7a92e9
+2024-10-12 09:48:19.602 [info] No remotes found in the git config file.
+2024-10-12 09:48:19.604 [info] > git config --get commit.template [24ms]
+2024-10-12 09:48:19.604 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/WADDAD refs/remotes/WADDAD [3ms]
+2024-10-12 09:48:19.604 [warning] No such branch: WADDAD.
+2024-10-12 09:48:19.751 [info] > git status -z -uall [127ms]
+2024-10-12 09:48:23.732 [info] > git config --get commit.template [144ms]
+2024-10-12 09:48:23.765 [info] No remotes found in the git config file.
+2024-10-12 09:48:23.777 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/WADDAD refs/remotes/WADDAD [13ms]
+2024-10-12 09:48:23.777 [warning] No such branch: WADDAD.
+2024-10-12 09:48:24.076 [info] > git status -z -uall [248ms]
+2024-10-12 09:48:27.141 [info] > git check-ignore -v -z --stdin [2777ms]
+2024-10-12 09:48:27.142 [info] > git check-ignore -v -z --stdin [2755ms]
+2024-10-12 09:48:39.479 [info] > git show --textconv :guestbook-service/src/main/resources/application-cloud.properties [49ms]
+2024-10-12 09:48:39.486 [info] > git ls-files --stage -- /home/student_02_0bc9ce7a92e9/guestbook-service/src/main/resources/application-cloud.properties [11ms]

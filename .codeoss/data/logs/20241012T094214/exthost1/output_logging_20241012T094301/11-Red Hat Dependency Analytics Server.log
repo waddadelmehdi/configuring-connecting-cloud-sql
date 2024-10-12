@@ -1,0 +1,1 @@
+[Warn  - 9:44:37 AM] Component Analysis Error: FetchError: request to https://rhda.rhcloud.com/api/v4/analysis failed, reason: Hostname/IP does not match certificate's altnames: Host: rhda.rhcloud.com. is not in the cert's altnames: DNS:*.apps.rosa.appsrep08ue2.bm6e.p3.openshiftapps.com
