@@ -19,3 +19,14 @@ gcloud sql connect guestbook
 ls
 git config --global init.defaultBranch WADDAD ELMEHDI
 git init
+git add .
+git config --global user.email "waddadelmehdi@gmail.com"
+git config --global user.name "WADDAD ELMEHDI"
+git commit -m "commit"
+git remote add origin  https://github.com/waddadelmehdi/configuring-connecting-cloud-SQL.git
+git push -u origin master
+git remote add origin https://github.com/waddadelmehdi/configuring-connecting-cloud-sql.git
+git push -u origin main
+git branch
+git branch -m master main
+git push -u origin main
